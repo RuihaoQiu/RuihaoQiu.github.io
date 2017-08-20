@@ -10,4 +10,5 @@ During my academic experience, I used statistical modeling and machine learning 
 
 ## Projects
 - [**Monte Carlo simulation on magnetic phase transition**](https://ruihaoqiu.github.io/MC-Magnetic-Phase-Transition/)
-- [**Materials Classification by Machine Learning**]
+- [**Searching for Novel Materials by Machine Learning**](https://nbviewer.jupyter.org/github/RuihaoQiu/Materials-Classification-by-Machine-Learning/blob/master/Materials_classificaton.ipynb)
+
