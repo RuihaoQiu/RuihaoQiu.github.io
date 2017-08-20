@@ -1,5 +1,5 @@
 ---
 title: Ruihao QIU
 theme: jekyll-theme-slate
+include: cv.md
 ---
-{% include cv.md %}
