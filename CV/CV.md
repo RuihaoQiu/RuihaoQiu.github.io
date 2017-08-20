@@ -22,8 +22,8 @@
 
 - **Markov Chain Monte Carlo Simulations on Magnetic Materials**
 - **Searching for Novel Materials by Machine Learning**
-- **Landslide in Guatemala**
 - **Data Science Hackathons**
+- **Landslide in Guatemala**
 
 ### PROGRAMMING SKILLS
 
