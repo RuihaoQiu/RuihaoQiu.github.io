@@ -4,7 +4,7 @@ My name is Ruihao QIU,  a physicist and data scientist. I got a Ph.D on statisti
 During my academic experience, I used statistical modeling and machine learning methods to solve problems on physics and materials science. With six years of research training in science, I had a solid background on statistics and programming. I found what I have acquired from academic research can be easily applied to solve more interesting and challenging problems in the industrial world. 
 
 
-- CV
+- [CV](CV/CV.md)
 - [LinkedIn](https://www.linkedin.com/in/ruihaoqiu/)
 
 
