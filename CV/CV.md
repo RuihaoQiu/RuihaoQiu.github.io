@@ -2,32 +2,40 @@
 
 ##### PHYSICIST & DATA SCIENTIST
 
-**Address:** Avenue du Dr Albert Schweitzer, 33600 Pessac, France
+**Address:** Avenue du Dr Albert Schweitzer, 33600 Pessac, France<br>**E-mail:** qiuruihao@gmail.com    **Phone:** +33 - 07 82 91 01 90<br>**Github:** [github.com/RuihaoQiu](github.com/RuihaoQiu)  **LinkedIn:** [linkedin.com/in/ruihaoqiu](linkedin.com/in/ruihaoqiu)
 
-**E-mail:** qiuruihao@gmail.com    **Phone:** +33 - 07 82 91 01 90
+### EDUCATION & EXPERIENCES
 
-**Github:** [github.com/RuihaoQiu](github.com/RuihaoQiu)  **LinkedIn:** [linkedin.com/in/ruihaoqiu](linkedin.com/in/ruihaoqiu)
+- **PhD of Statistical physics, University of Bordeaux and University of Liège (10. 2014 - 10. 2017)**
 
-### EDUCATION
+   and Materials science (funded by EU Erasmus programme)
 
-- **University of Bordeaux & University of Liège (2014 - 2017)**
+  **Data science projects**
 
-  PhD of Statistical physics and Materials science (funded by EU Erasmus programme)
+  - **Markov Chain Monte Carlo Simulations on Magnetic Materials**
+  - **Searching for Novel Materials by Machine Learning**
+  - **Landslide in Guatemala**
 
-- **Chinese Academy of Sciences (2011 - 2014)**
+  **Data Science Hackathons**
 
-  Master of Materials engineering
+  - Astrohack
+  - Denguehack
 
-### EXPERIENCES
+  **Relevant courses**
 
-- **Markov Chain Monte Carlo Simulations on Magnetic Materials**
-- **Searching for Novel Materials by Machine Learning**
-- **Data Science Hackathons**
-- **Landslide in Guatemala**
+  Intro to Machine Learning; Deep Learning with TensorFlow;  Advanced Stats: Bayesian methods to analyze your data; CÉCI High-Performance Computing (HPC) Training
+
+- **Master of Materials engineering, Chinese Academy of Sciences (09. 2011 - 07. 2014)**
+
 
 ### PROGRAMMING SKILLS
 
 - **Proficient in Python**
+
+  Common libraries *e.g.* NumPy, Pandas, matlibplot, IPython, etc*.*
+
+  Popular machine learning tools, *e.g.* Scikit-learn, TensorFlow, etc.
+
 - **Extensive Knowledge of R, Linux, Shell scripts, LaTex, Mathematica, Matlab**
 
 ### LANGUAGES
