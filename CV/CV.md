@@ -8,7 +8,7 @@
 
 - **PhD of Statistical physics, University of Bordeaux and University of Liège (10. 2014 - 10. 2017)**
 
-   and Materials science (funded by EU Erasmus programme)
+  Erasmus Mundus scholarship award by European Commission
 
   **Data science projects**
 
@@ -32,9 +32,7 @@
 
 - **Proficient in Python**
 
-  Common libraries *e.g.* NumPy, Pandas, matlibplot, IPython, etc*.*
-
-  Popular machine learning tools, *e.g.* Scikit-learn, TensorFlow, etc.
+  Common libraries *e.g.* NumPy, Pandas, matlibplot, IPython, etc. <br>Popular machine learning tools, *e.g.* Scikit-learn, TensorFlow, etc.
 
 - **Extensive Knowledge of R, Linux, Shell scripts, LaTex, Mathematica, Matlab**
 
