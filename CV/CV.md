@@ -13,13 +13,26 @@
   **Data science projects**
 
   - **Markov Chain Monte Carlo Simulations on Magnetic Materials**
+
+    *Use Markov Chain Monte Carlo method to simulate magnetic phase transition procedure from first principles calculations.*
+
   - **Searching for Novel Materials by Machine Learning**
+
+    *Apply machine learning algorithms on materials classification, aimed to search for new lead-free piezoelectric materials.*
+
   - **Landslide in Guatemala**
+
+    *Prediction of landslide map in Guatemala. In collaboration with Nick Estrada on his PhD project of geography.*
 
   **Data Science Hackathons**
 
-  - Astrohack
-  - Denguehack
+  - **Astrohack**
+
+    *Use deep learning method to determine the total stellar mass of a galaxy, training with 100,000 images of galaxy on GPUs.*
+
+  - **Denguehack**
+
+    *Identify the global distributions of mosquito and Dengue disease, build the short-term prediction of Dengue break. In collaboration with Johnson & Johnson, Xplodata and Break dengue*
 
   **Relevant courses**
 
