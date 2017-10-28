@@ -8,17 +8,19 @@
 
 - **PhD of Statistical physics, University of Bordeaux and University of Liège (10. 2014 - 10. 2017)**
 
-  Erasmus Mundus scholarship award by European Commission
+  Erasmus Mundus Joint PhD suported by European Commission
 
   **Data science projects**
 
-  - **Markov Chain Monte Carlo Simulations on Magnetic Materials**
-
-    *Use Markov Chain Monte Carlo method to simulate magnetic phase transition procedure from first principles calculations.*
+  - **Database of Perovskite materials**
 
   - **Searching for Novel Materials by Machine Learning**
 
-    *Apply machine learning algorithms on materials classification, aimed to search for new lead-free piezoelectric materials.*
+    *Used machine learning (supervised and unsupervised learning) to analyse and classify more than 200 perovskite materials, based on the database of a large collection of properties from massive simulations.*
+
+  - **Markov Chain Monte Carlo Simulations on Magnetic Materials**
+
+    *Built practical statistical models by Monte Carlo method, which arecrucial to determining the critical properties in phase transition.*
 
   - **Landslide in Guatemala**
 
@@ -28,7 +30,7 @@
 
   - **Astrohack**
 
-    *Use deep learning method to determine the total stellar mass of a galaxy, training with 100,000 images of galaxy on GPUs.*
+    *Applied deep learning (CNN) and autoencoder to determineand predict the mass of galaxies from images, the model was trained with100,000 images of galaxy on GPUs.*
 
   - **Denguehack**
 
