@@ -1,7 +1,9 @@
 ## About me
-My name is Ruihao QIU,  a physicist and data scientist. I got a joint Ph.D in statistical physics and materials science, between France and Belgium. With a PhD degree of multi-disciplines, I am able to identify, understand and solve complex problems in both physics and data sciences. Meanwhile, I am a fast learner, good at using/creating new tools to confront different challenges. 
+My name is Ruihao QIU, a physicist and data scientist. I got a joint Ph.D in statistical physics and materials science, between France and Belgium. 
 
-I used statistical modeling and machine learning methods to solve problems on physics and materials science. With six years of research training in science, I had a solid background on statistics and programming. I found what I have acquired from the academic research, e.g. the data analysis, machine learning and other modeling skills, verbal and written communication skills, can be easily applied to solve more interesting and challenging problems in the industrial world. 
+During my PhD, I used statistical modeling and machine learning methods to solve problems in  different subjects: physics, chemistry, materials science and even geography. With three years of research training in science, I have possessed a solid background on statistics and programming. I am able to understand and usie/create new tools to confront the challenges by quick learning and adapting.
+
+I found what I have acquired from the academic research, e.g. the skills of data engineering, machine learning and related numerical modeling, verbal and written communication, project managing, can be easily applied to fight with more interesting challenges in the industrial and business world. 
 
 
 - [**CV**](CV/CV.md)
