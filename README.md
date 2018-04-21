@@ -31,8 +31,6 @@ The followings are my profiles, and then the projects I have accomplished —
 
   Predict specific properties - bandgap and formation energy, based on the data from simulations (mainly structural parameters).
 
-  Apply machine learning algorithms on materials classification, aimed to search for new lead-free piezoelectric materials.
-
 - #### [**Monte Carlo Simulation on Magnetic Phase Transition**](https://ruihaoqiu.github.io/MC-Magnetic-Phase-Transition/)
 
   Use Markov Chain Monte Carlo method to simulate magnetic phase transition procedure.
@@ -56,5 +54,5 @@ The followings are my profiles, and then the projects I have accomplished —
 
 - [Ferroelectric instability in nanotubes and spherical nanoshells](https://epljournal.edpsciences.org/articles/epl/abs/2015/21/epl17505/epl17505.html)
 
-- Energetics and piezoelectric performance optimization of ZnO  		  ​	
+	 Energetics and piezoelectric performance optimization of ZnO  		  ​	
 
