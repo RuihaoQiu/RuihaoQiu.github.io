@@ -19,28 +19,28 @@ The followings are my profiles, and then the projects I have accomplished —
 ## Data Science Projects 
 - #### [**Searching for Novel Materials by Machine Learning**](http://nbviewer.jupyter.org/github/ruihaoqiu/Machine-learning-on-materials-research/tree/master/)
 
-  #### a. materials filter
+  #### a. predict material properties
+
+  Predict specific properties - bandgap and formation energy - for a group of semiconductors, based on the structural parameters.
+
+  #### b. materials filter
 
   Build unsupervised learning models (K-mean clustering) to identify the fake materials. We computed the phonon spectrum of a group of materials, which can be used as the input features. Without labeling them, our model is able to cluster them into two groups — real and fake materials. Therefore, before experiments, we can use this model to check whether the candidates can be synthesized or not.
 
-  #### b. materials classification.
+  #### c. materials classification.
 
   Use material properties (structural and electrical properties) from both experiments and simulations as the input features. Apply several classifiers (SVM, random forest, gradient boosting tree etc.) to separate ferroelectrics and nonferroelectrics, in order to search for new ferroelectrics for potential applications. 
 
-  #### c. predict material properties
-
-  Predict specific properties - bandgap and formation energy, based on the data from simulations (mainly structural parameters).
-
 - #### [**Monte Carlo Simulation on Magnetic Phase Transition**](https://ruihaoqiu.github.io/MC-Magnetic-Phase-Transition/)
 
-  Use Markov Chain Monte Carlo method to simulate magnetic phase transition procedure.
+  Simulation of magnetic phase transition procedure by implementing the Markov Chain Monte Carlo method (Metropoli-Hasting algorithm). 
 
 
 - #### [**Landslide in Guatemala**](http://orbi.ulg.ac.be/handle/2268/212996)
 
-  Prediction of landslide map in Guatemala with R. In collaboration with Nick Estrada on his PhD project of geography
+  Build a automatic data pipeline for prediction of landslide map in Guatemala with R. In collaboration with Nick Estrada on his PhD project of geography.
 
-- #### **Data Science Hackathons**
+- #### **Data science mini-projects**
 
   - [Astrohack](https://github.com/RuihaoQiu/Astrohack)
   - [Dengue Break Project](https://denguehack.org/2016/11/29/hackathon-winner-for-best-storytelling-xplodata/)
