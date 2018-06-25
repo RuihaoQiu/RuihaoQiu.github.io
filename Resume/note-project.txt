@@ -1,0 +1,71 @@
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Material projects</h3>
+                        <p>
+Apply machine learning algorithms to solve different problems
+in material science and engineering: 
+predict the band gap energy for semiconductors; 
+search candidates for Li-ion battery; 
+classify functional materials; 
+filter fake materials based on phonon spectrum.
+                        </p>
+                        <a href="https://github.com/RuihaoQiu/Machine-learning-on-materials-research">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+        	</div>
+    	</div>
+    	
+    	<div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Data science mini projects</h3>
+                        <p>
+Analysis and modeling on various interesting data sets from different domain: credit scoring, customer reviews, traffic violation records, bio-image recognizing, etc. 
+                        </p>
+                        <a href="https://github.com/RuihaoQiu/Data-science-projects">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+        	</div>
+    	</div>
+    	
+    	<div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Machine learning algorithms from scratch</h3>
+                        <p>
+Build machine learning models from scratch, implement the most common and popular algorithms: K-nearest neighbors, Naive Bayes, Decision tree, Random forest, Adaboost, Gradient boosting, Neural network, etc. (keep on updating ...)
+                        </p>
+                        <a href="https://github.com/RuihaoQiu/Algorithms" >View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+        	</div>
+    	</div>
+    </div>
+    <!-- End #projects -->
+   
