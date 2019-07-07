@@ -8,7 +8,7 @@ layout: page
 
 <p>I got a joint Ph.D in statistical physics and materials science, between France and Belgium. </p>
 
-<p>I am current working in as a data scientist in People Forecast, interested in NLP and big data solutions.</p>
+<p>I am currently working as a data scientist in People Forecast. I design and build data pipeline internally and I provide big data solutions for our clients.</p>
 
 <h2>Skills</h2>
 
