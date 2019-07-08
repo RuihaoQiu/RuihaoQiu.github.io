@@ -20,7 +20,9 @@ layout: page
 	<li>Data visualization</li>
 	<li>Data analytics</li>
 	<li>Statistical modeling</li>
+	<li>BI tools - PowerBI, Kibana</li>
 	<li>Project management</li>
+	<li>Elastic search</li>
 	<li>Git</li>
 	<li>AWS</li>
 </ul>
