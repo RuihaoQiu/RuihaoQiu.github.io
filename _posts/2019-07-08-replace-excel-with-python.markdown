@@ -20,7 +20,7 @@ description: Internal tutorial for strategy consultant.
 This is a tutorial I gave for the strategy consultants and developers in our company. The aim is to encourage them to use python(pandas) in their daily work of analytics, instead of Excel.
 
 #### Contents
-- [Import file](#import file)
+- [Import file](#import-file)
 - [Overview](#overview)
 - [Select](#select)
 - [Statistic summary](#statistic-summary)
@@ -36,7 +36,7 @@ This is a tutorial I gave for the strategy consultants and developers in our com
 
 ---
 
-## Selecting
+## Select
 
 ---
 
