@@ -32,9 +32,74 @@ This is a tutorial I gave for the strategy consultants and developers in our com
 
 ---
 
+First of all, import pandas module
+
+```
+import pandas as pd
+```
+
+Import example excel file
+
+```
+df = pd.read_excel("job_examples.xlsx")
+```
+
+Import specific excel sheet(jobs)
+
+```
+df = pd.read_excel("job_examples.xlsx", sheet_name="jobs")
+```
+
+Use a column(job_id) as an index
+
+```
+df = pd.read_excel("job_examples.xlsx", sheet_name="jobs", index_col="job_id")
+```
+
+
+
 ## Overview
 
 ---
+
+Gives a summary of dataframe
+
+```
+df.info()
+```
+
+Summary statistics of dataframe
+
+```
+df.describe()
+```
+
+Datatypes of the dataframe
+
+```
+df.dtypes
+```
+
+Head or Tail - display first/final 5 rows
+
+```
+df.head()
+df.tail()
+```
+
+Get the name of all columns
+
+```
+df.columns
+```
+
+Dimensions of dataframe
+
+```
+df.shape
+```
+
+
 
 ## Select
 
