@@ -26,7 +26,9 @@ This is a tutorial I gave for the strategy consultants and developers in our com
 - [Statistic summary](#statistic-summary)
 - [Aggregation](#aggregation)
 
----
+
+
+<div class="breaker"></div>
 
 ## Import file
 
@@ -105,9 +107,13 @@ df.shape
 
 ---
 
+
+
 ## Statistic summary
 
 ---
+
+
 
 ## Aggregation
 
