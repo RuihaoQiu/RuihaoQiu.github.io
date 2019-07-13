@@ -82,13 +82,6 @@ Datatypes of the dataframe
 df.dtypes
 ```
 
-Head or Tail - display first/final 5 rows
-
-```
-df.head()
-df.tail()
-```
-
 Get the name of all columns
 
 ```
@@ -106,6 +99,73 @@ df.shape
 ## Select
 
 ---
+
+Head or Tail - display first/final 5 rows
+
+```
+df.head()
+df.tail()
+```
+
+Select a column
+
+```
+df['location']
+df.loc[:,['location']]
+df.iloc[:,[3]] 							# 4th column
+```
+
+Select some columns
+
+```
+df[['job_title','location','company_name']]
+df.loc[:, ['job_title','location','company_name']]
+df.iloc[:, [3, 4, 5]] 					# 3, 4, 5th column
+```
+
+Select some rows
+
+```
+df.loc[22779711:22779706]
+df.loc[[22779711, 22465415, 22779706]]	# job id as index
+
+df.iloc[10:20]
+df.iloc[[1,3,5]]
+```
+
+Select some rows and columns
+
+```
+df.loc[[22779711, 22465415, 22779706], ['job_title','location','company_name']]
+df.iloc[10:20, [3, 4, 5]]		
+```
+
+Filter categorical data
+
+```
+df[df['country_code'] == 'DE']
+df[df['country_code'].isin(['DE', 'GB'])]	# multiple filter
+df[~df['country_code'] == 'DE']				# negative filter
+```
+
+Filter numerical data
+
+```
+df[df['job_id']>1000]
+df[(df['job_id']>1000) & (df['job_id']<10000)]
+```
+
+Filter string data
+
+```
+df[df['location'].str.contains("Essen")]
+```
+
+Sort value
+
+```
+df.sort_values("language_id")
+```
 
 
 
