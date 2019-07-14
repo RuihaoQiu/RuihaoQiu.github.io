@@ -24,7 +24,7 @@ This is a tutorial I gave for the strategy consultants and developers in our com
 - [Overview](#overview)
 - [Select](#select)
 - [Statistic summary](#statistic-summary)
-- [Aggregation](#aggregation)
+- [Lambda function](#lambda-function)
 
 
 
@@ -173,12 +173,80 @@ df.sort_values("language_id")
 
 ---
 
+Shape of dataframe
+
+```
+df.shape					# #row, #column
+df.size						# #cells
+df.count()
+```
+
+Sum
+
+```
+df.sum(axis = 0)			# sum column
+df.sum(axis = 1)			# sum row
+```
+
+Mean, max, min
+
+```
+df.mean()
+df.max()
+df.min()
+```
+
+Unique
+
+```
+df['language_id'].unique()
+```
+
+Groupby
+
+```
+df.groupby('language_id').mean()
+df.groupby('language_id').max()
+df.groupby('language_id').min()
+```
 
 
-## Aggregation
+
+## Lambda function
+
+------
+
+It is a very flexible way to manipulate data in a specific column.
+
+The following two examples are the same, the query with lambda function may look very long, but you can define any function as you like. 
+
+```
+df[df['language_id']>1]
+
+df[df['language_id'].apply(lambda x: x > 1)]
+```
+
+A more complex example
+
+```
+## find long job titles 
+df[df.apply(lambda x : len(x['job_title'].split(" "))>10,axis=1)]
+```
+
+An interesting trick, progress_apply, one can see the progress of the query.
+
+```
+from tqdm import tqdm, tqdm_notebook
+tqdm_notebook().pandas()
+
+df[df.progress_apply(lambda x : len(x['job_title'].split(" "))>=10,axis=1)]
+```
+
+
 
 ---
 
 
 
-[1]: 
+[1]: https://github.com/ank0409/Ditching-Excel-for-Python
+[2]: https://mode.com/python-tutorial/pandas-groupby-and-python-lambda-functions/
