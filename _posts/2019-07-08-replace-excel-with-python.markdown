@@ -244,9 +244,9 @@ df[df.progress_apply(lambda x : len(x['job_title'].split(" "))>=10,axis=1)]
 
 
 
+
+
 ---
-
-
 
 [1]: https://github.com/ank0409/Ditching-Excel-for-Python
 [2]: https://mode.com/python-tutorial/pandas-groupby-and-python-lambda-functions/
