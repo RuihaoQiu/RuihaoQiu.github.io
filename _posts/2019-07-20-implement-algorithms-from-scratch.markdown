@@ -16,37 +16,25 @@ author: Ruihao
 
 <div class="breaker"></div>
 
-### Algorithms
-
-------
-
 Implement the most important algorithms for machine learning and searching from scratch.
 
+<div class="breaker"></div>
 
-
-**Machine learning**:
+#### **Machine learning**:
 
 - K-nearest neighbors (KNN)
-
 - Naive Bayes
-
 - Decision tree
-
 - Random forest
-
 - Adaboost
-
 - Gradient boosting
-
 - Linear regression
-
 - Logistic regression
-
 - Neural network
 
-  ​
+<div class="breaker"></div>
 
-**Others**
+#### **Others**
 
 - Search algorithms
 - Sorting algorithms
@@ -56,8 +44,4 @@ Implement the most important algorithms for machine learning and searching from 
 
 
 
-#### My github repo
-
----
-
-[1]: https://github.com/RuihaoQiu/Algorithms
+#### [Check them out here](https://github.com/RuihaoQiu/Algorithms).
