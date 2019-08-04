@@ -26,13 +26,9 @@ This is a tutorial I gave for the strategy consultants and developers in our com
 - [Statistic summary](#statistic-summary)
 - [Lambda function](#lambda-function)
 
-
-
 <div class="breaker"></div>
 
 ## Import file
-
----
 
 First of all, import pandas module
 
@@ -60,9 +56,9 @@ df = pd.read_excel("job_examples.xlsx", sheet_name="jobs", index_col="job_id")
 
 
 
-## Overview
+------
 
----
+## Overview
 
 Gives a summary of dataframe
 
@@ -96,9 +92,9 @@ df.shape
 
 
 
-## Select
+------
 
----
+## Select
 
 Head or Tail - display first/final 5 rows
 
@@ -169,9 +165,9 @@ df.sort_values("language_id")
 
 
 
-## Statistic summary
+------
 
----
+## Statistic summary
 
 Shape of dataframe
 
@@ -212,9 +208,9 @@ df.groupby('language_id').min()
 
 
 
-## Lambda function
-
 ------
+
+## Lambda function
 
 It is a very flexible way to manipulate data in a specific column.
 
@@ -242,11 +238,7 @@ tqdm_notebook().pandas()
 df[df.progress_apply(lambda x : len(x['job_title'].split(" "))>=10,axis=1)]
 ```
 
-
-
-
-
----
+<div class="breaker"></div>
 
 [1]: https://github.com/ank0409/Ditching-Excel-for-Python
 [2]: https://mode.com/python-tutorial/pandas-groupby-and-python-lambda-functions/
