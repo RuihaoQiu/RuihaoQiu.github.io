@@ -38,23 +38,19 @@ Recommender system is everywhere. Image it is just a smart machine that introduc
 
 
 
+What is the difference between jobs and other items.
+
+- There is usually only one job per vacancy, compared to books or songs that can be used by an unlimited amount of people. 
+- It is not sufficient for the job seeker to be interested in the vacancy. The job provider also has to deem the job seeker a suitable candidate. In many other recommendation contexts, it is not required for the item to be interested in the user. 
+- Finding a job is usually a bigger decision than picking a movie or book, it belongs to a high risk recommendation context.
+
+
+
 In job market, a job recommender system need to answer two question:
 
 Job seeker: What available vacancy is the best one for me?
 
-Jo provider: Out of all job seekers, which one should we hire?
-
-
-
-What is 	
-
-- There is usually only one job per vacancy, compared to books which can always be reprinted, or songs that can be listened to by an unlimited amount of people. 
-- Furthermore, it is not sufficient for the job seeker to be interested in the vacancy. The job provider also has to deem the job seeker a suitable candidate. This compared to many other recommendation contexts, where it is not required for the item to be interested in the user, but only that the user is interested in the item. 
-- Finally, finding a job is usually a bigger decision than picking a movie to watch tonight. 		a high risk recommendation context	
-
-
-​			
-Similar with real-estate market and dating market
+Job provider: Out of all job seekers, which one should we hire?
 
 
 
@@ -62,13 +58,11 @@ Similar with real-estate market and dating market
 
 **Implicit user interest** is based on the assumption that certain behavioral characteristics contain information on how (un)interesting a specific item is for a user. Common examples of ways to capture implicit user interests are looking at clicks on an item, purchasing an item, bookmarking an item’s URL, and dwell time on an item’s descriptive page.
 
-
-​			
-Skill-based job recommender system
 ​	
 
 
-​	
+
+
 ​		
 ​	
 
