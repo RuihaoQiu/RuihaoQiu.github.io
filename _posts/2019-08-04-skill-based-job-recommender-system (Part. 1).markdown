@@ -72,5 +72,3 @@ Currently we are facing the cold start problem, our application is still under d
 
 Continue reading - Skill-based Job Recommender System (Part. 2)
 
-
-
