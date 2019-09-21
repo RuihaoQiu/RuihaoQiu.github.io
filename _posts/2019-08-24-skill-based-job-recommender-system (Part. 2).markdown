@@ -33,11 +33,11 @@ The idea behind skill extraction is very simple, extract skills from the text ba
 
   words too general (eg. technology, management) 
 
-  words too specific (eg. Microsoft words 2007, …
+  words too specific (eg. Microsoft words 2007)
 
-  words too long (…)
+  words too long (eg. Desktop and mobile Architecture for System Hardware)
 
-  words too short (…)
+  case sensitive (eg. CAN, MAN)
 
 - how well we clean the raw text
 
@@ -55,21 +55,33 @@ The idea behind skill extraction is very simple, extract skills from the text ba
 
 #### Skill recommendation
 
-There are many different ways to do recommendation on skills. Again, the recommendations strongly depend on how much information we know about our users and what the users really want.
+There are many different ways to do recommendation on skills. Again, the recommendations strongly depend on what the users really want and how much information we know about our users. In the following, I will give simple ideas to deal with different use cases.
 
-**Case 1** - 
+**Case 1**
 
 The user want to know what kinds of skills he/she should put on their profile, that will increase his/her competitive in the label market.
 
-**Case 2** -
+**idea**
+
+A good logic would be recommend the popular skills based on the information about the user (current skills, job position, work experience, preference etc.). 
+
+**Case 2**
 
 The user want to apply for certain position, what kind of skills he/she might need for that position.
 
-**Case 3** -  
+**idea**
+
+The strategy would go into two steps, a) standardize the job title, b) recommend the most popular skills for the desired job title.
+
+**Case 3** 
+
+The user have a list of jobs that want to apply in mind.
+
+**idea**
+
+The recommendation can be a list of top skills in these jobs.
 
 
 
-
-
-To be continues …
+Sounds super simple, but how to implement these ideas, a lot of issues and technology need to be figured out. I might discuss in other blogs.
 

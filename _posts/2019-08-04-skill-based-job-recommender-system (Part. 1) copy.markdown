@@ -31,7 +31,7 @@ Last winter, I was invited to give a lecture to the data engineering master stud
 
   ​
 
-### Intro to job recommender system
+### Intro to skill/job recommender system
 
 Recommender system is everywhere. It is just a smart machine that introduce the users to products that they will be interested in.
 
@@ -64,11 +64,13 @@ There are two different kinds of recommender system:
 - Content-based filter: recommend items only based on their similarity.
 - Collaborative filter: recommend items based on user's historical records, the user's explicit interest (like/dislike, rating or reviews) and implicit interest (clicks on an item, bookmarking an item’s URL, time spent on the page)
 
-Generally speaking, collaborative filter works better than content filter, it includes information of the users. A major advantage of collaborative filtering is that it is domain free, yet it can address data aspects that are often elusive and difficult to profile using content filtering. However, collaborative filtering suffers from what is called the cold start problem, due to its inability to address the system’s new products and users. In this aspect, content filtering is superior.
+Generally speaking, collaborative filter works better than content filter, it includes information of the users' preferece. A major advantage of collaborative filtering is that it is domain free, yet it can address data aspects that are often elusive and difficult to profile using content filtering. However, collaborative filtering suffers from what is called the cold start problem, due to its inability to address the system’s new products and users. In this aspect, content filtering is superior.
 
-Currently we are facing the cold start problem, our application is still under development. In the same time, we found a nice way to get enough information from both job seeker and job post. Our key is the skills, in both job posts and profiles. Based on skills, user and item become identical. The system just need to find out the most similar profiles to the job post or most similar job post to a candidate.
+Currently we are facing the cold start problem, our application is still under development. However, we still have the useful information about the users - their current position, skills, working experience etc. from their CVs. And in the other way round, we have all information about the job in the job post.
+
+Our key is the skills, in both CV and job posts. Based on skills, user and item become identical. The system just need to find out the most similar profiles to the job post or most similar job post to a candidate.
 
 
 
-Continue reading - Skill-based Job Recommender System (Part. 2)
+I will further discuss in my next post.
 
