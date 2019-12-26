@@ -1,9 +1,9 @@
-<p align="center">This website includes the projects, notes, knowledge, ideas and codes from my daily jobs.</p>
+<p align="center">This is simple website including my ideas and codes.</p>
 
-<div class="breaker"></div>
+------
 
 <p align="center">
 
-![Munich](https://github.com/RuihaoQiu/RuihaoQiu.github.io/blob/master/assets/main.png?raw=true)
+[![Munich](https://github.com/RuihaoQiu/RuihaoQiu.github.io/blob/master/assets/main.png?raw=true)](http://ruihaoqiu.github.io)
 
 </p>
