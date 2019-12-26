@@ -5,7 +5,7 @@
 <p align="center">
 
 ```
-<img src="" />
+<img src="https://github.com/RuihaoQiu/RuihaoQiu.github.io/blob/master/assets/main.png?raw=true" />
 ```
 
 </p>
