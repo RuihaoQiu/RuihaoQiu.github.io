@@ -11,7 +11,7 @@ tag:
 projects: true
 hidden: true
 category: project
-author: Ruihao
+author: Ruihao Qiu 
 ---
 
 <div class="breaker"></div>
