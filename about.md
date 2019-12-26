@@ -4,11 +4,15 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>My name is Ruihao QIU (邱锐浩), a physicist and data scientist. </p>
+My name is Ruihao QIU (邱锐浩), a physicist and data scientist.
 
-<p>I got a joint Ph.D in statistical physics and materials science, between France and Belgium. </p>
+I got a joint Ph.D in statistical physics and materials science, between France and Belgium.  
 
-<p>I am currently working as a data scientist in People Forecast. I design and build data pipeline internally and I provide big data solutions for our clients.</p>
+I am currently working as a senior data scientist in a consulting company. My main work: 
+
+- Develop ML functions on our smart applications.
+- Built and maintain our data pipeline, that collecting global workforce data (>100GB).
+- Provide AI solution for our clients (DAX 30 companies). 
 
 <h2>Skills</h2>
 

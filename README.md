@@ -1,9 +1,11 @@
-This is my personal website, covering the notes from my daily data science projects.
+<p align="center">This website includes the projects, notes, knowledge, ideas and codes from my daily jobs.</p>
 
-My name is Ruihao QIU. I got Ph.D degree in physics and I am currently working as a senior data scientist in a consulting company. My main jobs:
+<div class="breaker"></div>
 
-- Develop ML functions on our smart applications.
-- Built and maintain our data pipeline, that collecting global workforce data (>100GB).
-- Provide AI solution for our clients (DAX 30 companies). 
+<p align="center">
 
-This website includes the projects, notes, knowledge, ideas and codes from my daily jobs.
+```
+<img src="" />
+```
+
+</p>
