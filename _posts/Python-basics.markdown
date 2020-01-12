@@ -1,4 +1,18 @@
-# Python basics
+```
+title: "Python notes for data science"
+layout: post
+date: 2019-07-20 11:48
+image: 
+headerImage: false
+tag:
+- python
+projects: true
+hidden: true
+category: project
+author: Ruihao Qiu 
+```
+
+# Python note for data science
 
 This is a personal notebook of basic python. I try to mark down the simple knowledge, concepts, ideas and tricks that often appear in my daily data science work.
 
@@ -14,8 +28,8 @@ This is a personal notebook of basic python. I try to mark down the simple knowl
 - Pandas
 - Regex
 
+
+
 ## Reference
 
-[1] https://docs.python.org/3.7/tutorial/  
-[2] https://pythonbasics.org/  
-[3] https://chrisalbon.com/
+[Check my repo here.](https://github.com/RuihaoQiu/Python-notes)
