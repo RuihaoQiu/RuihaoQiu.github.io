@@ -2,7 +2,7 @@
 title: "Implement machine learning algorithms from scratch"
 layout: post
 date: 2019-07-20 11:48
-image: 
+image:
 headerImage: false
 tag:
 - machine learning
@@ -11,7 +11,7 @@ tag:
 projects: true
 hidden: true
 category: project
-author: Ruihao Qiu 
+author: Ruihao Qiu
 ---
 
 <div class="breaker"></div>

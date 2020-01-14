@@ -1,7 +1,7 @@
-```
+---
 title: "Python notes for data science"
 layout: post
-date: 2019-07-20 11:48
+date: 2019-10-20 20:00
 image:
 headerImage: false
 tag:
@@ -10,7 +10,7 @@ projects: true
 hidden: true
 category: project
 author: Ruihao Qiu
-```
+---
 
 # Python note for data science
 
