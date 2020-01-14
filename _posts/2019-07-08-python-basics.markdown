@@ -1,10 +1,12 @@
 ---
-title: "Python notes for data science"
+title: "Python notes on data science"
 layout: post
-date: 2019-10-20 20:00
+date: 2019-07-20 11:48
 image:
 headerImage: false
 tag:
+- machine learning
+- algorithm
 - python
 projects: true
 hidden: true
@@ -12,7 +14,7 @@ category: project
 author: Ruihao Qiu
 ---
 
-# Python note for data science
+# Python notes on data science
 
 This is a personal notebook of basic python. I try to mark down the simple knowledge, concepts, ideas and tricks that often appear in my daily data science work.
 
