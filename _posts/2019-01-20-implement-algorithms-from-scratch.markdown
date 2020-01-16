@@ -40,9 +40,15 @@ Neural networks generally have multiple connected layers between their input and
 
 
 #### **Others**
-- [Search algorithms](https://github.com/RuihaoQiu/Algorithms/blob/master/Searching.ipynb)
-- [Sorting algorithms](https://github.com/RuihaoQiu/Algorithms/blob/master/Sorting.ipynb)
-- [Graph search algorithm](https://github.com/RuihaoQiu/Algorithms/blob/master/GraphSearchAlgorithm.ipynb)
+- [Search algorithms](https://github.com/RuihaoQiu/Algorithms/blob/master/Searching.ipynb)  
+  - linear search - O(N)
+  - binary search - O(logN)
+- [Sorting algorithms](https://github.com/RuihaoQiu/Algorithms/blob/master/Sorting.ipynb)  
+  - Simple sorts - O(N^2) : bubble sort, insertion sort and selection sort.
+  - Efficient sorts - O(NlogN) : heap sort, merge sort and quicksort O(N^2).
+  -
+- [Graph search algorithm](https://github.com/RuihaoQiu/Algorithms/blob/master/GraphSearchAlgorithm.ipynb)  
+Path search algo.
 
 (to be continued … )
 
