@@ -12,6 +12,7 @@ I am currently working as a senior data scientist in a consulting company in Mun
 - Developed and deployed machine learning applications for big data processing. - Provided AI solutions for our clients (DAX 30 companies).
 
 <h2>Skills</h2>
+
 - **Data science skills**: Machine Learning, Deep learning, Recommender system, Big data processing, Parallel computing, NLP, SQL/NoSQL, Elasticsearch, Data visualization.
 - **Programming skills**: Python(Numpy, Pandas, Sklearn, Tensorflow), R, Spark, Git, Docker, AWS(S3, EC2, Redshift), PowerBI.
 - **Other skills**: Communication, Teamwork, Project management.
