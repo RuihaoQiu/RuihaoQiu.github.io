@@ -1,15 +1,14 @@
 ---
 title: "Intro to Recommender System"
 layout: post
-date: 2019-08-04 15:48
+date: 2019-07-02 15:48
 image:
 headerImage: false
 tag:
 - recommender system
-- skills
 category: blog
 author: Ruihao Qiu
-description: Lecture for data engineering master student in Jacob Universi
+description: General introduction to recommender systems
 
 ---
 
