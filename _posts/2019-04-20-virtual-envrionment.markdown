@@ -7,9 +7,7 @@ headerImage: false
 tag:
 - python
 - virtualenv
-projects: true
-hidden: true
-category: project
+category: blog
 author: Ruihao Qiu
 ---
 <div class="breaker"></div>
