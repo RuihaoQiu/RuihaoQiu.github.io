@@ -1,0 +1,67 @@
+---
+title: "SQL queries for job database"
+layout: post
+date: 2019-04-02
+image:
+headerImage: false
+tag:
+- SQL
+category: blog
+author: Ruihao Qiu
+---
+<div class="breaker"></div>
+
+## Simple SQL notes
+
+### select and limit
+select all from jobs
+```
+select * from jobs
+```
+select first 10 rows from job_id column
+```
+select job_id from jobs
+limit 10
+```
+
+### order by
+sort the jobs by number of skills
+```
+select * from jobs
+order by skills_count desc
+```
+
+### where
+select english jobs
+```
+select * from job_skills
+where language_code = 'en'
+```
+single quote, case sensitive
+
+### count
+number of english jobs
+```
+select count(*) from jobs
+where language_code = 'en'
+```
+
+### group by
+
+```
+select language_code, count(*) as n_jobs from jobs
+group by language_code
+order by n_jobs desc
+```
+
+### join
+left join
+```
+select * from job_1
+left join job_2
+on job_1.job_id=job_2.job_id
+```
+
+### Reference
+1. https://www.dataquest.io/blog/sql-basics/
+1. https://www.diffen.com/difference/Inner_Join_vs_Outer_Join
