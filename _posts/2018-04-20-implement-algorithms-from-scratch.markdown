@@ -38,19 +38,6 @@ It is constructed by a linear regression and a logistic function
 - [Neural network](https://github.com/RuihaoQiu/Algorithms/blob/master/NeuralNetwork.ipynb)  
 Neural networks generally have multiple connected layers between their input and output, called “hidden” layers. There are numbers of neurons in each layer, each neuron receive the signals from those from the previous layer and process it to the next layer (Mathematically, the sum of weighted input followed by a activation function).
 
-
-#### **Others**
-- [Search algorithms](https://github.com/RuihaoQiu/Algorithms/blob/master/Searching.ipynb)  
-  - linear search - O(N)
-  - binary search - O(logN)
-- [Sorting algorithms](https://github.com/RuihaoQiu/Algorithms/blob/master/Sorting.ipynb)  
-  - Simple sorts - O(N^2) : bubble sort, insertion sort and selection sort.
-  - Efficient sorts - O(NlogN) : heap sort, merge sort and quicksort O(N^2).
-- [Graph search algorithm](https://github.com/RuihaoQiu/Algorithms/blob/master/GraphSearchAlgorithm.ipynb)  
-Path search algo.
-
 (to be continued … )
-
-<div class="breaker"></div>
 
 #### [Check the whole project here.](https://github.com/RuihaoQiu/Algorithms)
