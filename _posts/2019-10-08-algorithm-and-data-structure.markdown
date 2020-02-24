@@ -13,8 +13,6 @@ category: project
 author: Ruihao Qiu
 ---
 
-# Algorithms and data structure
-
 This project is introducing practical use cases, with example code of different algorithms and data structure.
 
 Check the document website - [https://algonotes.readthedocs.io/en/latest/](https://algonotes.readthedocs.io/en/latest/)

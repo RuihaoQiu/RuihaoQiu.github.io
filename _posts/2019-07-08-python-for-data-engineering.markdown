@@ -13,8 +13,6 @@ category: project
 author: Ruihao Qiu
 ---
 
-# Python notes for data science
-
 This is a personal notebook of basic python. I try to mark down the simple knowledge, concepts, ideas and tricks that often appear in my daily data science work.
 
 Check the document website -  [https://pynotes.readthedocs.io/en/latest](pynotes.readthedocs.io)

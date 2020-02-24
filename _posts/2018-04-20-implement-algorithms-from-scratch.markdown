@@ -13,11 +13,8 @@ hidden: true
 category: project
 author: Ruihao Qiu
 ---
-<div class="breaker"></div>
 
 Implement the most important algorithms for machine learning and searching from scratch.
-
-#### **Machine learning**:
 
 - [K-nearest neighbors (KNN)](https://github.com/RuihaoQiu/Algorithms/blob/master/KNearestNeighbor.ipynb)  
 KNN just memorizes the data and make prediction by the majority vote of its K nearest neighbors.
