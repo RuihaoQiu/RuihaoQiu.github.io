@@ -9,8 +9,8 @@ My name is Ruihao QIU (邱锐浩), a physicist and data scientist.
 I got a joint Ph.D in statistical physics and materials science, between France and Belgium.  
 I am currently working as a senior data scientist in a consulting company in Munich Germany. My main work:
 
-- Developed multiple skill-based recommender systems for our smart mobile applications.
-- Built and maintained the automatic data pipeline on aws.
+- Developed multiple skill-based recommender systems in our mobile applications for our client with thousands of employees globally.
+- Design, built and maintained the automatic data pipeline on aws, hundreds of Gigabytes datasets.
 - Developed and deployed machine learning applications for big data processing.
 - Provided AI solutions for our clients (DAX 30 companies).
 
@@ -22,7 +22,8 @@ I am currently working as a senior data scientist in a consulting company in Mun
 - **Language**: English-C1, French-B1, German-A1, Chinese-Native.
 
 ## Projects
-
-- [Machine learning from scratch](https://github.com/RuihaoQiu/Algorithms)
+- [NLP projects](mlnlp.rtfd.io)
+- [Algorithms and data structures - use cases](algonotes.rtfd.io)
+- [Python for data engineer](pynotes.rtfd.io)
+- [Machine learning models from scratch](https://github.com/RuihaoQiu/Algorithms)
 - [Machine learning in materials science](https://github.com/RuihaoQiu/Machine-learning-on-materials-research)
-- [NLP projects](https://github.com/RuihaoQiu/NLP-projects)
