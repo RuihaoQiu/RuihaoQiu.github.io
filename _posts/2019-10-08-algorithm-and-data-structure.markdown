@@ -1,7 +1,7 @@
 ---
 title: "Algorithms and data structure - use cases"
 layout: post
-date: 2019-07-20 11:48
+date: 2019-10-08 11:48
 image:
 headerImage: false
 tag:
