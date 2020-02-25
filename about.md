@@ -22,8 +22,8 @@ I am currently working as a senior data scientist in a consulting company in Mun
 - **Language**: English-C1, French-B1, German-A1, Chinese-Native.
 
 ## Projects
-- [NLP projects](mlnlp.rtfd.io)
-- [Algorithms and data structures - use cases](algonotes.rtfd.io)
-- [Python for data engineer](pynotes.rtfd.io)
+- [NLP projects](https://mlnlp.readthedocs.io/en/latest/index.html)
+- [Algorithms and data structures - use cases](https://algonotes.readthedocs.io/en/latest/)
+- [Python for data engineering](https://pynotes.readthedocs.io/en/latest/)
 - [Machine learning models from scratch](https://github.com/RuihaoQiu/Algorithms)
 - [Machine learning in materials science](https://github.com/RuihaoQiu/Machine-learning-on-materials-research)
