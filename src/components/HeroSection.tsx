@@ -17,7 +17,7 @@ export function HeroSection() {
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-muted-foreground mb-8">
           Senior Manager of AI and Data Science at TalentNeuron, Munich.
-          Building agentic AI systems, LLM pipelines, and data science products at scale.
+          Building AI and data science products for large organizations, small businesses, and researchers.
         </p>
         <div className="flex items-center justify-center gap-3">
           <Button variant="outline" size="icon" asChild aria-label="GitHub">
