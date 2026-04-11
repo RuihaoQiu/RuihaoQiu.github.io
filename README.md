@@ -1,11 +1,23 @@
+# Ruihao Qiu — Personal Website
 
-  # Design System SaaS Landing Page
+Personal website of Ruihao (Ray) Qiu, Senior Manager of AI and Data Science.
 
-  This is a code bundle for Design System SaaS Landing Page. The original project is available at https://www.figma.com/design/I3rq5K73u31H4aavxKVfP3/Design-System-SaaS-Landing-Page.
+Live at: **https://ruihaoqiu.github.io**
 
-  ## Running the code
+## Tech Stack
 
-  Run `npm i` to install the dependencies.
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/) component library
 
-  Run `npm run dev` to start the development server.
-  
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+Automatically deployed to GitHub Pages via GitHub Actions on every push to `main`.
