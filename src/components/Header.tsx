@@ -22,7 +22,7 @@ export function Header() {
         </div>
         <div className="flex items-center space-x-4">
           <Button asChild className="hidden md:inline-flex">
-            <a href="#contact">Get in Touch</a>
+            <a href="mailto:qiuruihao@gmail.com">Get in Touch</a>
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}

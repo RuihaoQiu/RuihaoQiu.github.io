@@ -27,6 +27,29 @@ const articles = [
   },
 ];
 
+const notebooks = [
+  {
+    title: "Machine Learning in NLP",
+    description: "Common use cases in my daily NLP projects.",
+    href: "https://mlnlp.readthedocs.io/en/latest/index.html",
+  },
+  {
+    title: "Recommender Systems in NLP",
+    description: "Several recommender systems in NLP, specifically for online recruitment.",
+    href: "https://recsys-nlp.readthedocs.io/en/latest/index.html",
+  },
+  {
+    title: "Python Notes for Data Engineering",
+    description: "Practical knowledge, concepts and tricks of Python in data engineering.",
+    href: "https://pynotes.readthedocs.io/en/latest",
+  },
+  {
+    title: "Algorithms and Use Cases",
+    description: "Different algorithms and data structures with code examples.",
+    href: "https://algonotes.readthedocs.io/en/latest/",
+  },
+];
+
 export function ArticlesSection() {
   return (
     <section id="articles" className="py-20">
@@ -39,7 +62,8 @@ export function ArticlesSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {articles.map((article) => (
-            <Card key={article.title} className="flex flex-col">
+            <Card key={article.title} className="relative flex flex-col transition-all hover:shadow-md hover:border-primary cursor-pointer">
+              <a href={article.href} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-0" aria-label={article.title} />
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <Badge variant="secondary" className="text-xs">{article.tag}</Badge>
@@ -50,7 +74,7 @@ export function ArticlesSection() {
                 <CardDescription className="text-sm leading-relaxed">
                   {article.excerpt}
                 </CardDescription>
-                <div className="flex items-center justify-between">
+                <div className="relative z-10 flex items-center justify-between">
                   <div className="flex items-center text-xs text-muted-foreground gap-1">
                     <Clock className="h-3 w-3" />
                     {article.readTime}
@@ -65,12 +89,18 @@ export function ArticlesSection() {
             </Card>
           ))}
         </div>
-        <div className="text-center mt-10">
-          <Button variant="outline" asChild>
-            <a href="https://tulip-production-6e8.notion.site/Articles-a4268d2bbbcf457284e4f86353ca1651" target="_blank" rel="noopener noreferrer">
-              View all articles <ArrowRight className="ml-2 h-4 w-4" />
-            </a>
-          </Button>
+        {/* Notebooks */}
+        <div className="max-w-5xl mx-auto mt-16">
+          <h3 className="text-xl font-semibold mb-6 pb-2 border-b">Notebooks</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {notebooks.map((nb) => (
+              <a key={nb.title} href={nb.href} target="_blank" rel="noopener noreferrer"
+                className="border rounded-xl p-4 hover:border-primary transition-colors">
+                <div className="font-medium text-sm mb-1">{nb.title}</div>
+                <div className="text-xs text-muted-foreground">{nb.description}</div>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>

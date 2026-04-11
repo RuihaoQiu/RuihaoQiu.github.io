@@ -1,12 +1,19 @@
 import { Badge } from "./ui/badge";
 import { Card, CardContent } from "./ui/card";
 
-const skills = [
-  "Agentic Systems", "GenAI", "LLMs", "NLP",
-  "Deep Learning", "MLOps", "Recommender Systems",
-  "Data Visualization", "Data Engineering", "Parallel Computing",
-  "Python", "SQL", "Shell Scripts", "Docker", "Git", "CI/CD",
-  "AWS (S3, EC2, Redshift)", "GCP", "Elasticsearch", "PowerBI",
+const skillGroups = [
+  {
+    label: "AI & ML",
+    skills: ["Agentic Systems", "GenAI", "LLMs", "NLP", "Deep Learning", "Recommender Systems"],
+  },
+  {
+    label: "Data & Engineering",
+    skills: ["Data Engineering", "MLOps", "Data Visualization", "Parallel Computing", "SQL", "Elasticsearch", "PowerBI"],
+  },
+  {
+    label: "Software",
+    skills: ["Python", "Shell Scripts", "Docker", "Git", "CI/CD", "AWS (S3, EC2, Redshift)", "GCP"],
+  },
 ];
 
 const timeline = [
@@ -41,6 +48,7 @@ export function AboutSection() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Timeline */}
           <div className="space-y-4">
+            <h3 className="font-semibold text-lg">Experience</h3>
             {timeline.map((item) => (
               <Card key={item.role}>
                 <CardContent className="pt-4">
@@ -48,7 +56,6 @@ export function AboutSection() {
                     <div>
                       <div className="font-medium">{item.role}</div>
                       <div className="text-sm text-muted-foreground">{item.org}</div>
-                      <p className="text-sm text-muted-foreground mt-1">{item.description}</p>
                     </div>
                     <Badge variant="secondary" className="shrink-0 text-xs whitespace-nowrap">{item.period}</Badge>
                   </div>
@@ -58,15 +65,18 @@ export function AboutSection() {
           </div>
 
           {/* Skills */}
-          <div>
-            <h3 className="font-semibold text-lg mb-6">Skills & Technologies</h3>
-            <div className="flex flex-wrap gap-2">
-              {skills.map((skill) => (
-                <Badge key={skill} variant="outline" className="text-sm py-1 px-3">
-                  {skill}
-                </Badge>
-              ))}
-            </div>
+          <div className="space-y-6">
+            <h3 className="font-semibold text-lg">Skills & Technologies</h3>
+            {skillGroups.map((group) => (
+              <div key={group.label}>
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">{group.label}</div>
+                <div className="flex flex-wrap gap-2">
+                  {group.skills.map((skill) => (
+                    <Badge key={skill} variant="outline" className="text-sm py-1 px-3">{skill}</Badge>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
