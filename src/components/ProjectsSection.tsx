@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { ExternalLink, Github, LayoutDashboard, Users, FlaskConical, Atom, BookOpen, TrendingUp, LucideIcon } from "lucide-react";
+import { ExternalLink, Github, LayoutDashboard, Users, FlaskConical, Atom, BookOpen, TrendingUp, Calculator, LucideIcon } from "lucide-react";
 
 const projects: { title: string; category: string; description: string; tags: string[]; github: string; demo: string; icon: LucideIcon }[] = [
   {
@@ -43,6 +43,16 @@ const projects: { title: string; category: string; description: string; tags: st
     github: "",
     demo: "#",
     icon: TrendingUp,
+  },
+  {
+    title: "Auto Report Agents",
+    category: "Research",
+    description:
+      "Conversational AI agent for generating and reviewing accounting reports — upload Excel data, generate Word reports from templates, and ask questions about results.",
+    tags: ["Agentic AI", "LLM", "Python"],
+    github: "https://github.com/RuihaoQiu/auto-report-agents",
+    demo: "#",
+    icon: Calculator,
   },
   {
     title: "FiberX",

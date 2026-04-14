@@ -17,7 +17,6 @@ export function Header() {
             <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a>
             <a href="#projects" className="text-muted-foreground hover:text-foreground transition-colors">Projects</a>
             <a href="#articles" className="text-muted-foreground hover:text-foreground transition-colors">Articles</a>
-            <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
           </nav>
         </div>
         <div className="flex items-center space-x-4">
@@ -34,7 +33,6 @@ export function Header() {
           <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#projects" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#articles" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setMenuOpen(false)}>Articles</a>
-          <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors" onClick={() => setMenuOpen(false)}>Contact</a>
         </div>
       )}
     </header>
