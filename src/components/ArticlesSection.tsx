@@ -5,11 +5,18 @@ import { ArrowRight, Clock } from "lucide-react";
 
 const articles = [
   {
+    title: "Workforce Planning: Closing the Gap with AI",
+    excerpt: "Why the cheapest path through headcount change is impossible to find by hand — and what optimization changes.",
+    tag: "AI",
+    readTime: "6 min read",
+    href: "/#/workforce-planning",
+  },
+  {
     title: "Attrition Prediction with AutoML",
     excerpt: "ML approaches addressing employee attrition — using automated machine learning to predict and understand workforce turnover.",
     tag: "Machine Learning",
     readTime: "5 min read",
-    href: "https://medium.com/@ruihao.qiu",
+    href: "/#/attrition-prediction",
   },
   {
     title: "Job Recommender Systems",
@@ -63,7 +70,11 @@ export function ArticlesSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {articles.map((article) => (
             <Card key={article.title} className="relative flex flex-col transition-all hover:shadow-md hover:border-primary cursor-pointer">
-              <a href={article.href} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-0" aria-label={article.title} />
+              {article.href.startsWith("/#/") ? (
+                <a href={article.href} className="absolute inset-0 z-0" aria-label={article.title} />
+              ) : (
+                <a href={article.href} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-0" aria-label={article.title} />
+              )}
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <Badge variant="secondary" className="text-xs">{article.tag}</Badge>
@@ -80,9 +91,11 @@ export function ArticlesSection() {
                     {article.readTime}
                   </div>
                   <Button variant="ghost" size="sm" asChild>
-                    <a href={article.href} target="_blank" rel="noopener noreferrer">
-                      Read <ArrowRight className="ml-1 h-3 w-3" />
-                    </a>
+                    {article.href.startsWith("/#/") ? (
+                      <a href={article.href}>Read <ArrowRight className="ml-1 h-3 w-3" /></a>
+                    ) : (
+                      <a href={article.href} target="_blank" rel="noopener noreferrer">Read <ArrowRight className="ml-1 h-3 w-3" /></a>
+                    )}
                   </Button>
                 </div>
               </CardContent>

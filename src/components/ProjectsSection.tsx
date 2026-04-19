@@ -11,7 +11,7 @@ const projects: { title: string; category: string; description: string; tags: st
       "Search and recommender systems for labor market intelligence, and agentic AI workflows for workforce planning and organizational restructuring at scale.",
     tags: ["LLM", "Agentic AI", "Recommender Systems"],
     github: "",
-    demo: "/smart-apps",
+    demo: "/#/smart-apps",
     icon: LayoutDashboard,
   },
   {
@@ -21,7 +21,7 @@ const projects: { title: string; category: string; description: string; tags: st
       "Designed and deployed 20+ AI models — deep learning and custom LLM-based — as the intelligence backbone of Smart Apps, covering data cleaning, normalization, extraction, and prediction across TB-scale global workforce data.",
     tags: ["Deep Learning", "LLM", "NLP"],
     github: "",
-    demo: "/ai-jobs",
+    demo: "/#/ai-jobs",
     icon: Users,
   },
   {
@@ -99,7 +99,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
       {link && (
         <a
           href={link}
-          {...(!link.startsWith("/") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+          {...(!link.startsWith("/#/") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
           className="absolute inset-0 z-0"
           aria-label={project.title}
         />
@@ -130,7 +130,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
           )}
           {project.demo !== "#" && (
             <Button size="sm" asChild>
-              {project.demo.startsWith("/") ? (
+              {project.demo.startsWith("/#/") ? (
                 <a href={project.demo}>Details</a>
               ) : (
                 <a href={project.demo} target="_blank" rel="noopener noreferrer">
