@@ -8,6 +8,10 @@ import { SmartAppsPage } from "./pages/SmartAppsPage";
 import { AIJobsPage } from "./pages/AIJobsPage";
 import { WorkforcePlanningPage } from "./pages/WorkforcePlanningPage";
 import { AttritionPredictionPage } from "./pages/AttritionPredictionPage";
+import { LiveProjectsPage } from "./pages/LiveProjectsPage";
+import { AutoReportPage } from "./pages/AutoReportPage";
+import { FiberXPage } from "./pages/FiberXPage";
+import { MLMaterialsPage } from "./pages/MLMaterialsPage";
 
 function HomePage() {
   return (
@@ -32,6 +36,10 @@ export default function App() {
         <Route path="/ai-jobs" element={<AIJobsPage />} />
         <Route path="/workforce-planning" element={<WorkforcePlanningPage />} />
         <Route path="/attrition-prediction" element={<AttritionPredictionPage />} />
+        <Route path="/live-projects" element={<LiveProjectsPage />} />
+        <Route path="/auto-report" element={<AutoReportPage />} />
+        <Route path="/fiberx" element={<FiberXPage />} />
+        <Route path="/ml-materials" element={<MLMaterialsPage />} />
       </Routes>
     </HashRouter>
   );

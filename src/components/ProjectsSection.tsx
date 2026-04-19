@@ -31,7 +31,7 @@ const projects: { title: string; category: string; description: string; tags: st
       "A Python tutorial published by Manning covering four real-world NLP projects — from data pipelines to text classification and information extraction.",
     tags: ["Python", "NLP", "Tutorial"],
     github: "",
-    demo: "https://www.manning.com/liveprojectseries/ds-pipeline-ser",
+    demo: "/#/live-projects",
     icon: BookOpen,
   },
   {
@@ -51,7 +51,7 @@ const projects: { title: string; category: string; description: string; tags: st
       "Conversational AI agent for generating and reviewing accounting reports — upload Excel data, generate Word reports from templates, and ask questions about results.",
     tags: ["Agentic AI", "LLM", "Python"],
     github: "https://github.com/RuihaoQiu/auto-report-agents",
-    demo: "#",
+    demo: "/#/auto-report",
     icon: Calculator,
   },
   {
@@ -61,7 +61,7 @@ const projects: { title: string; category: string; description: string; tags: st
       "GUI application for scientific researchers to analyze optical fiber sensor spectrum data in real-time — supports multi-sensor types, spectral range selection, and live data acquisition.",
     tags: ["Python", "Spectrum Analysis", "GUI"],
     github: "https://github.com/RuihaoQiu/FiberX",
-    demo: "#",
+    demo: "/#/fiberx",
     icon: FlaskConical,
   },
   {
@@ -71,7 +71,7 @@ const projects: { title: string; category: string; description: string; tags: st
       "ML models for classification and physical property prediction trained on 10,000+ materials. Simulated electronic structures across 50+ nanomaterials using first-principles optimization on distributed HPC clusters.",
     tags: ["Graph Neural Networks", "DFT", "PyTorch"],
     github: "https://github.com/RuihaoQiu/Machine-learning-on-materials-research",
-    demo: "#",
+    demo: "/#/ml-materials",
     icon: Atom,
   },
   {
