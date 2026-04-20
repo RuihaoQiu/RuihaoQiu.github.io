@@ -1,7 +1,5 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
-import { ArrowRight, Clock } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const articles = [
   {
@@ -67,39 +65,23 @@ export function ArticlesSection() {
             Thoughts on AI, data science, and building things that matter.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="max-w-3xl mx-auto space-y-3">
           {articles.map((article) => (
-            <Card key={article.title} className="relative flex flex-col transition-all hover:shadow-md hover:border-primary cursor-pointer">
-              {article.href.startsWith("/#/") ? (
-                <a href={article.href} className="absolute inset-0 z-0" aria-label={article.title} />
-              ) : (
-                <a href={article.href} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-0" aria-label={article.title} />
-              )}
-              <CardHeader>
-                <div className="flex items-center justify-between mb-2">
-                  <Badge variant="secondary" className="text-xs">{article.tag}</Badge>
-                </div>
-                <CardTitle className="text-base leading-snug">{article.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="flex flex-col flex-1 justify-between gap-4">
-                <CardDescription className="text-sm leading-relaxed">
-                  {article.excerpt}
-                </CardDescription>
-                <div className="relative z-10 flex items-center justify-between">
-                  <div className="flex items-center text-xs text-muted-foreground gap-1">
-                    <Clock className="h-3 w-3" />
-                    {article.readTime}
-                  </div>
-                  <Button variant="ghost" size="sm" asChild>
-                    {article.href.startsWith("/#/") ? (
-                      <a href={article.href}>Read <ArrowRight className="ml-1 h-3 w-3" /></a>
-                    ) : (
-                      <a href={article.href} target="_blank" rel="noopener noreferrer">Read <ArrowRight className="ml-1 h-3 w-3" /></a>
-                    )}
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
+            <a
+              key={article.title}
+              href={article.href}
+              {...(!article.href.startsWith("/#/") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+              className="flex items-center justify-between gap-6 border rounded-xl px-6 py-4 hover:border-primary hover:shadow-md transition-all group"
+            >
+              <div className="min-w-0 flex-1">
+                <div className="font-medium text-base leading-snug">{article.title}</div>
+                <div className="text-xs text-muted-foreground mt-0.5">{article.excerpt}</div>
+              </div>
+              <div className="flex items-center gap-3 shrink-0">
+                <Badge variant="secondary" className="text-xs">{article.tag}</Badge>
+                <ArrowRight className="h-4 w-4 text-primary" />
+              </div>
+            </a>
           ))}
         </div>
         {/* Notebooks */}
