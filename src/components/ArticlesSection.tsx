@@ -17,6 +17,13 @@ const articles = [
     href: "/#/attrition-prediction",
   },
   {
+    title: "Scoring Automation Potential: How Much of a Job Can Actually Be Automated?",
+    excerpt: "Most automation assessments produce one blended score per job. That number hides more than it reveals — here's a duty-level, time-weighted approach using four LLM agents.",
+    tag: "Agentic AI",
+    readTime: "5 min read",
+    href: "/#/automation-potentials",
+  },
+  {
     title: "Job Recommender Systems",
     excerpt: "An overview of different job recommendation architectures designed for online recruitment platforms.",
     tag: "NLP",

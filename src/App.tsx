@@ -12,6 +12,7 @@ import { LiveProjectsPage } from "./pages/LiveProjectsPage";
 import { AutoReportPage } from "./pages/AutoReportPage";
 import { FiberXPage } from "./pages/FiberXPage";
 import { MLMaterialsPage } from "./pages/MLMaterialsPage";
+import { AutomationPotentialsPage } from "./pages/AutomationPotentialsPage";
 
 function HomePage() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/auto-report" element={<AutoReportPage />} />
         <Route path="/fiberx" element={<FiberXPage />} />
         <Route path="/ml-materials" element={<MLMaterialsPage />} />
+        <Route path="/automation-potentials" element={<AutomationPotentialsPage />} />
       </Routes>
     </HashRouter>
   );
