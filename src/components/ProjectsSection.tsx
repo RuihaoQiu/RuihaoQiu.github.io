@@ -1,9 +1,29 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { ExternalLink, Github, LayoutDashboard, Users, FlaskConical, Atom, BookOpen, TrendingUp, Calculator, LucideIcon } from "lucide-react";
+import { ExternalLink, Github, LayoutDashboard, Users, FlaskConical, Atom, BookOpen, TrendingUp, Calculator, Compass, LucideIcon } from "lucide-react";
 
 const projects: { title: string; category: string; description: string; tags: string[]; github: string; demo: string; icon: LucideIcon }[] = [
+  {
+    title: "Strategic Workforce Planning",
+    category: "Product",
+    description:
+      "An integrated platform uniting internal workforce insights with global labor market intelligence — spanning market intelligence, job architecture, workforce planning, and talent marketplace. Built on our LLM-based extraction foundation to power data-driven decisions about the future of the organization.",
+    tags: ["LLM", "Labor Market Intelligence", "Workforce Planning"],
+    github: "",
+    demo: "/#/strategic-workforce-planning",
+    icon: Compass,
+  },
+  {
+    title: "AI for Jobs & Profiles",
+    category: "Product",
+    description:
+      "The foundation layer beneath every product and analysis — turning messy job posts and profiles into clean, structured intelligence. LLM-based extraction replaces dozens of small models with one pipeline that is more accurate, multilingual by default, and easier to evolve as requirements change.",
+    tags: ["LLM", "NLP", "Structured Extraction"],
+    github: "",
+    demo: "/#/ai-jobs",
+    icon: Users,
+  },
   {
     title: "SmartData / SmartPeople / SmartPlan",
     category: "Product",
@@ -13,16 +33,6 @@ const projects: { title: string; category: string; description: string; tags: st
     github: "",
     demo: "/#/smart-apps",
     icon: LayoutDashboard,
-  },
-  {
-    title: "AI for Jobs & Profiles",
-    category: "Product",
-    description:
-      "Designed and deployed 20+ AI models — deep learning and custom LLM-based — as the intelligence backbone of Smart Apps, covering data cleaning, normalization, extraction, and prediction across TB-scale global workforce data.",
-    tags: ["Deep Learning", "LLM", "NLP"],
-    github: "",
-    demo: "/#/ai-jobs",
-    icon: Users,
   },
   {
     title: "LiveProjects — Manning Publications",

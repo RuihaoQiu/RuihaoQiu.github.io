@@ -14,6 +14,8 @@ import { FiberXPage } from "./pages/FiberXPage";
 import { MLMaterialsPage } from "./pages/MLMaterialsPage";
 import { AutomationPotentialsPage } from "./pages/AutomationPotentialsPage";
 import { LLMExtractionPage } from "./pages/LLMExtractionPage";
+import { LLMEvalsPage } from "./pages/LLMEvalsPage";
+import { StrategicWorkforcePlanningPage } from "./pages/StrategicWorkforcePlanningPage";
 
 function HomePage() {
   return (
@@ -44,6 +46,8 @@ export default function App() {
         <Route path="/ml-materials" element={<MLMaterialsPage />} />
         <Route path="/automation-potentials" element={<AutomationPotentialsPage />} />
         <Route path="/llm-extraction" element={<LLMExtractionPage />} />
+        <Route path="/llm-evals" element={<LLMEvalsPage />} />
+        <Route path="/strategic-workforce-planning" element={<StrategicWorkforcePlanningPage />} />
       </Routes>
     </HashRouter>
   );

@@ -1,7 +1,17 @@
+import { useState } from "react";
 import { Badge } from "./ui/badge";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
+
+const INITIAL_ARTICLES_COUNT = 4;
 
 const articles = [
+  {
+    title: "Why LLM Evaluation Is Hard (And What to Do About It)",
+    excerpt: "\"Looks good\" is not a metric. A practical guide to evaluating probabilistic systems — pick the right scorer per field, test the judge, and version your results.",
+    tag: "Evaluation",
+    readTime: "6 min read",
+    href: "/#/llm-evals",
+  },
   {
     title: "Designing LLM Pipelines for Job Post Extraction",
     excerpt: "Three architectures for turning unstructured job posts into clean, queryable data — and a framework for choosing between single-call, two-call, and hybrid regex approaches.",
@@ -70,6 +80,10 @@ const notebooks = [
 ];
 
 export function ArticlesSection() {
+  const [expanded, setExpanded] = useState(false);
+  const visibleArticles = expanded ? articles : articles.slice(0, INITIAL_ARTICLES_COUNT);
+  const hiddenCount = articles.length - INITIAL_ARTICLES_COUNT;
+
   return (
     <section id="articles" className="py-20">
       <div className="container mx-auto px-4">
@@ -80,7 +94,7 @@ export function ArticlesSection() {
           </p>
         </div>
         <div className="max-w-3xl mx-auto space-y-3">
-          {articles.map((article) => (
+          {visibleArticles.map((article) => (
             <a
               key={article.title}
               href={article.href}
@@ -97,6 +111,18 @@ export function ArticlesSection() {
               </div>
             </a>
           ))}
+          {hiddenCount > 0 && (
+            <div className="flex justify-center pt-3">
+              <button
+                type="button"
+                onClick={() => setExpanded((v) => !v)}
+                className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
+              >
+                {expanded ? "Show less" : `Show ${hiddenCount} more`}
+                <ChevronDown className={`h-4 w-4 transition-transform ${expanded ? "rotate-180" : ""}`} />
+              </button>
+            </div>
+          )}
         </div>
         {/* Notebooks */}
         <div className="max-w-5xl mx-auto mt-16">
