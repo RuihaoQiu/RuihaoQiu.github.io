@@ -3,6 +3,20 @@ import { ArrowRight } from "lucide-react";
 
 const articles = [
   {
+    title: "Designing LLM Pipelines for Job Post Extraction",
+    excerpt: "Three architectures for turning unstructured job posts into clean, queryable data — and a framework for choosing between single-call, two-call, and hybrid regex approaches.",
+    tag: "LLM",
+    readTime: "6 min read",
+    href: "/#/llm-extraction",
+  },
+  {
+    title: "Scoring Automation Potential: How Much of a Job Can Actually Be Automated?",
+    excerpt: "Most automation assessments produce one blended score per job. That number hides more than it reveals — here's a duty-level, time-weighted approach using four LLM agents.",
+    tag: "Agentic AI",
+    readTime: "5 min read",
+    href: "/#/automation-potentials",
+  },
+  {
     title: "Workforce Planning: Closing the Gap with AI",
     excerpt: "Why the cheapest path through headcount change is impossible to find by hand — and what optimization changes.",
     tag: "AI",
@@ -15,13 +29,6 @@ const articles = [
     tag: "Machine Learning",
     readTime: "5 min read",
     href: "/#/attrition-prediction",
-  },
-  {
-    title: "Scoring Automation Potential: How Much of a Job Can Actually Be Automated?",
-    excerpt: "Most automation assessments produce one blended score per job. That number hides more than it reveals — here's a duty-level, time-weighted approach using four LLM agents.",
-    tag: "Agentic AI",
-    readTime: "5 min read",
-    href: "/#/automation-potentials",
   },
   {
     title: "Job Recommender Systems",
