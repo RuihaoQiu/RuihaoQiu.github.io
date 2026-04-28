@@ -1,6 +1,6 @@
 # Ruihao Qiu — Personal Website
 
-Personal website of Ruihao (Ray) Qiu, PhD — Senior Manager of AI and Data Science at TalentNeuron.
+Personal website of Ruihao (Ray) Qiu, PhD — Tech Lead of AI and Data Science at TalentNeuron.
 
 The site covers products and projects across labor market intelligence, workforce planning, and NLP — from large-scale production systems to scientific research. It also hosts articles on applied AI, LLMs, and data science, along with reference notebooks.
 

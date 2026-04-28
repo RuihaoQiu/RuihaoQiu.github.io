@@ -18,7 +18,7 @@ const skillGroups = [
 
 const timeline = [
   {
-    role: "Senior Manager, AI and Data Science",
+    role: "Tech Lead, AI and Data Science",
     org: "TalentNeuron, Munich",
     period: "2025 – Present",
     description: "Led LLM integration replacing 30+ ML models, reducing ~$1M in operational costs. Built an internal agentic AI system eliminating 80% of manual consultant work. Leading a team of 4 data scientists cross-functionally with engineering and product.",
