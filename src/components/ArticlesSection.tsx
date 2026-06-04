@@ -6,6 +6,13 @@ const INITIAL_ARTICLES_COUNT = 4;
 
 const articles = [
   {
+    title: "From Tweaking Rules to Building Agents: It's All the Same Thing",
+    excerpt: "Rules, ML, agents — every automated optimization is the same loop: read context, change code, check results, repeat. The update target is just a detail.",
+    tag: "Agentic AI",
+    readTime: "6 min read",
+    href: "/#/auto-engineering",
+  },
+  {
     title: "Why LLM Evaluation Is Hard (And What to Do About It)",
     excerpt: "\"Looks good\" is not a metric. A practical guide to evaluating probabilistic systems — pick the right scorer per field, test the judge, and version your results.",
     tag: "Evaluation",
