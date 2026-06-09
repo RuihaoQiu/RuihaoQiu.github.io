@@ -17,6 +17,7 @@ import { LLMExtractionPage } from "./pages/LLMExtractionPage";
 import { LLMEvalsPage } from "./pages/LLMEvalsPage";
 import { StrategicWorkforcePlanningPage } from "./pages/StrategicWorkforcePlanningPage";
 import { AutoEngineeringPage } from "./pages/AutoEngineeringPage";
+import { AIPersonalEvolutionPage } from "./pages/AIPersonalEvolutionPage";
 
 function HomePage() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
         <Route path="/llm-evals" element={<LLMEvalsPage />} />
         <Route path="/strategic-workforce-planning" element={<StrategicWorkforcePlanningPage />} />
         <Route path="/auto-engineering" element={<AutoEngineeringPage />} />
+        <Route path="/ai-personal-evolution" element={<AIPersonalEvolutionPage />} />
       </Routes>
     </HashRouter>
   );

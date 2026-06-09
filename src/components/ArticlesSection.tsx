@@ -6,6 +6,13 @@ const INITIAL_ARTICLES_COUNT = 4;
 
 const articles = [
   {
+    title: "When Execution Is Cheap, Judgment Is the Moat",
+    excerpt: "AI makes producing answers free. What it can't replicate is knowing which ones to throw away — and betting your reputation on that call.",
+    tag: "Career",
+    readTime: "8 min read",
+    href: "/#/ai-personal-evolution",
+  },
+  {
     title: "From Tweaking Rules to Building Agents: It's All the Same Thing",
     excerpt: "Rules, ML, agents — every automated optimization is the same loop: read context, change code, check results, repeat. The update target is just a detail.",
     tag: "Agentic AI",
