@@ -158,7 +158,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="py-20 bg-muted/50">
+    <section id="projects" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl tracking-tight mb-4">Products & Projects</h2>

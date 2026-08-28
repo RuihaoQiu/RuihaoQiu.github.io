@@ -4,6 +4,7 @@ import { HeroSection } from "./components/HeroSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { ArticlesSection } from "./components/ArticlesSection";
 import { AboutSection } from "./components/AboutSection";
+import { NotebooksSection } from "./components/NotebooksSection";
 import { SmartAppsPage } from "./pages/SmartAppsPage";
 import { AIJobsPage } from "./pages/AIJobsPage";
 import { WorkforcePlanningPage } from "./pages/WorkforcePlanningPage";
@@ -25,8 +26,9 @@ function HomePage() {
       <Header />
       <main>
         <HeroSection />
-        <ProjectsSection />
         <ArticlesSection />
+        <ProjectsSection />
+        <NotebooksSection />
         <AboutSection />
       </main>
     </div>
